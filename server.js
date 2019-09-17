@@ -9,4 +9,4 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use(routes);
 
-app.listen(3001);
+app.listen(process.env.PORT || 3001);
